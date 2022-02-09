@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export interface IArticle {
+interface IArticle {
   width: string;
 }
 const ArticleStyled = styled.article<IArticle>`
